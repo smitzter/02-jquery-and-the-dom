@@ -2,7 +2,7 @@
 
 var articles = [];
 
-function Article (rawData) {
+function Article (rawDataObj) {
   this.category = rawData.category;
   this.title = rawData.title;
   this.author = rawData.author;
