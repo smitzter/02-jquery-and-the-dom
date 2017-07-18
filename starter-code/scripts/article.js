@@ -21,7 +21,6 @@ Article.prototype.toHtml = function() {
   with a class of template a display of none. Let's make
   sure we're not accidentally hiding our cloned article! */
   //est: 25mins //act: 15 mins //changed in css.
-  //$newArticle.css('display', 'block');
   $newArticle.removeClass('template');
 
   if (!this.publishedOn) $newArticle.addClass('draft');
